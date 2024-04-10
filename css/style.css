@@ -1,6 +1,7 @@
 body {
   margin: 0;
 }
+
 .wrapper {
   max-width: 1127px;
   width: 100%;
@@ -251,3 +252,72 @@ h2 {
   text-align: center;
   font-size: 14px;
 }
+
+/* Tomato all */
+
+#tomato{
+  background: url(../images/image\ 7.png) no-repeat center;
+  padding: 242px 0;
+  margin: 17px 0 0 
+}
+
+#red {
+  background-color: #fcf4f4;
+  padding: 50px;
+}
+
+.text-tomato {
+  color: #324950;
+  font-size: 17px;
+  line-height: 162.7%;
+  margin-top: 31px;
+}
+
+h3 {
+  color: #324950;
+  font-size: 44px;
+  margin: 0px 0 40px 0;
+}
+
+h4{
+  color: #324950;
+  font-size: 22px;
+}
+
+h5{
+  color: #324950;
+  font-size: 17px;
+}
+
+h6{
+  color: #57984C;
+  font-size: 20px;
+  margin: -2px 0 -10px 0;
+}
+
+blockquote{
+  background: url(../images/Rectangle\ 27.png) no-repeat ;
+  padding-left: 30px;
+  margin-left: -1px
+}
+
+#white{
+  background-color: white;
+}
+
+.center {
+  justify-content: center;
+  display: flex;
+}
+
+.space{
+  width: 5%;
+  float: left;
+}
+
+.tomato-tag{
+  font-size: 16px;
+  text-align: center;
+  color: #57984C;
+}
+
