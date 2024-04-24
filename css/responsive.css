@@ -1,0 +1,415 @@
+@media (max-width: 1150px) {
+
+  #gray {
+    padding: 15px;
+  }
+  .header {
+    padding: 15px;
+  }
+  #slider {
+    margin-top: -173px;
+  }
+  #slider h1 {
+    padding: 15px;
+  }
+  #categories .row {
+    padding: 15px;
+  }
+  #tomato-fon {
+    padding: 20px 15px 100px 15px;
+  }
+  #menu ul li a {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 40px;
+  }
+  .vision-img,
+  .mission-img {
+    width: 90%;
+    height: auto;
+  }
+  .product-sect .w-2 h1 {
+    font-size: 50px;
+  }
+  .h8 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 1024px) {
+  h4 {
+    font-size: 20px;
+  }
+  #slider h1 {
+    font-size: 44px;
+  }
+  #slider {
+    padding: 320px 0;
+  }
+  #slider a {
+    font-size: 14px;
+    width: 145px;
+    height: 45px;
+    line-height: 45px;
+  }
+  h2 {
+    font-size: 52px;
+  }
+  .text {
+    font-size: 18px;
+  }
+  .activities-text,
+  .h10 {
+    font-size: 17px;
+  }
+  .h8 {
+    font-size: 26px;
+  }
+  .activities-card a {
+    font-size: 22px;
+  }
+  .product-sect .w-2 h1 {
+    font-size: 48px;
+  }
+  h3 {
+    font-size: 38px;
+  }
+  label,
+  p,
+  h5,
+  blockquote {
+    font-size: 16px;
+  }
+  h9 {
+    font-size: 18px;
+  }
+  .charact li {
+    font-size: 16px;
+  }
+  #menu {
+    text-align: right;
+  }
+  #menu::before {
+    content: "";
+    display: inline-block;
+    background-size: 100% 100%;
+    background-image: url(./../images/list_7209743.png);
+    width: 35px;
+    height: 35px;
+  }
+  #menu:active ul,
+  #menu ul:hover {
+    display: block;
+  }
+  #menu ul {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: none;
+  }
+  #menu ul li {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .vision-img,
+  .mission-img {
+    width: 90%;
+    height: auto;
+  }
+  .activities-card img {
+    width: 100%;
+    height: auto;
+  }
+  #slider {
+    margin-top: -193px;
+  }
+  #gray {
+    padding: 40px 15px;
+  }
+  #red {
+    padding: 15px;
+  }
+  #gray1 {
+    padding: 15px;
+  }
+  .links {
+    text-align: center;
+  }
+  .links ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+  .social-networks {
+    padding: 0;
+  }
+  .footer-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+  .links ul li {
+    margin: 10px;
+  }
+  .credits {
+    font-size: 13px;
+}
+}
+
+@media (max-width: 900px) {
+}
+
+@media (max-width: 768px) {
+  #slider {
+    padding: 280px 0;
+  }
+  #tomato {
+    padding: 210px 0;
+  }
+  #slider h1 {
+    font-size: 42px;
+  }
+  #slider a {
+    font-size: 13px;
+    width: 145px;
+    height: 45px;
+    line-height: 45px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .product-sect .w-2 h1 {
+    font-size: 44px;
+  }
+  .text {
+    font-size: 17px;
+  }
+  h3 {
+    font-size: 38px;
+  }
+  .h8 {
+    font-size: 24px;
+  }
+  form button {
+    font-size: 16px;
+  }
+  .our-address h11,
+  .our-address p {
+    font-size: 16px;
+  }
+  .h10 {
+    font-size: 16px;
+  }
+  .links ul li a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 640px) {
+  .product-image{
+    margin-left: 0;
+  }
+  #slider {
+    padding: 300px 0;
+  }
+  #tomato {
+    padding: 175px 0;
+  }
+  #categories .row {
+    display: flex;
+    flex-direction: column;
+  }
+  #categories .row .w-7 {
+    width: 100%;
+  }
+  .vision {
+    flex-direction: column;
+    text-align: center;
+    align-items: flex-start;
+  }
+  .mission {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .vision .w-2,
+  .mission .w-2 {
+    width: 100%;
+  }
+  .vision-img,
+  .mission-img {
+    width: 90%;
+    height: auto;
+    margin-left: 0px;
+  }
+  #gray .wrapper .vision .w-2 {
+    margin-left: 0px;
+  }
+  #activities .wrapper .row {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .activities-card {
+    text-align: center;
+    width: 100%;
+  }
+  .links ul li a {
+    font-size: 12px;
+  }
+  .activities-card img {
+    width: 60%;
+    height: auto;
+  }
+  .links {
+    text-align: center;
+  }
+  .links ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .social-networks {
+    padding: 0;
+  }
+  .footer-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+  .links ul li {
+    margin: 4px;
+  }
+  #gray,
+  #activities {
+    padding: 30px 15px 40px 15px;
+  }
+  .center {
+    flex-direction: column;
+    align-items: center;
+  }
+  .center .w-4 {
+    width: 95%;
+    text-align: center;
+  }
+  .tomato-tag .row .center .w-3 {
+    width: 90%;
+    margin: 10px;
+  }
+  form {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  #form-w-1,
+  #form-w-2 {
+    width: 95%;
+  }
+  #gray1 {
+    padding: 15px;
+    text-align: center;
+  }
+  .red-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 45px 0;
+  }
+  .button {
+    margin-bottom: 50px;
+    justify-content: center;
+  }
+  .product-image {
+    width: 68%;
+  }
+  .credits {
+    font-size: 12px;
+}
+}
+
+@media (max-width: 480px) {
+  #logo img {
+    width: 95%;
+  }
+  #tomato {
+    padding: 150px 0;
+  }
+  #slider {
+    padding: 280px 0;
+  }
+  #slider h1 {
+    font-size: 38px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  .text {
+    font-size: 15px;
+  }
+  .h8 {
+    font-size: 22px;
+  }
+  .activities-text,
+  .h10 {
+    font-size: 15px;
+  }
+  .activities-card a {
+    font-size: 18px;
+  }
+  #categories a {
+    font-size: 13px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  #gray1 .wrapper h3 {
+    font-size: 36px;
+  }
+  label,
+  p,
+  h5,
+  blockquote {
+    font-size: 15px;
+  }
+  .product-sect .w-2 h1 {
+    font-size: 42px;
+  }
+  .charact li {
+    font-size: 15px;
+  }
+  h9 {
+    font-size: 17px;
+  }
+  .our-address h11,
+  .our-address p {
+    font-size: 15px;
+  }
+  form button {
+    font-size: 15px;
+  }
+  .credits {
+    font-size: 10px;
+}
+}
+
+@media (max-width: 400px) {
+  #slider {
+    margin-top: -240px;
+    padding: 270px 0;
+  }
+  #tomato {
+    padding: 130px 0;
+  }
+}
+
+@media (max-width: 320px) {
+  #slider {
+    margin-top: -260px;
+    padding: 250px 0;
+  }
+}
