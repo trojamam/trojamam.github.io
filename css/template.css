@@ -1,0 +1,191 @@
+.flex {
+    display: flex;
+}
+
+.w40 {
+    width: 40%;
+}
+
+.w60 {
+    width: 60%;
+}
+
+.al {
+    text-align: left;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+/* Login page specific styles */
+#left-area {
+    min-height: 100vh;
+    background: white;
+    position: relative;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+#right-area {
+    position: relative;
+    overflow: hidden;
+}
+
+#right-area img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.header {
+    padding: 30px 20px;
+    border-bottom: 1px solid #edf2f7;
+}
+
+.header .wrapper {
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1a202c;
+}
+
+/* Form styles */
+.inner-form {
+    max-width: 400px;
+    margin: 40px auto;
+}
+
+.row {
+    margin-bottom: 24px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #4a5568;
+}
+
+input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.2s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4299e1;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.15);
+}
+
+.btn {
+    width: 108%;
+    padding: 12px 24px;
+    background: #4299e1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    background: #3182ce;
+    transform: translateY(-1px);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+/* Alert and Success messages */
+.alertMsg,
+.successMsg {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    display: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.alertMsg {
+    background: #fff5f5;
+    color: #c53030;
+    border: 1px solid #feb2b2;
+}
+
+.successMsg {
+    background: #f0fff4;
+    color: #2f855a;
+    border: 1px solid #9ae6b4;
+}
+
+.alertMsg i,
+.successMsg i {
+    margin-right: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+    }
+    
+    .w40,
+    .w60 {
+        width: 100%;
+    }
+    
+    #right-area {
+        display: none;
+    }
+    
+    .inner-form {
+        padding: 20px;
+    }
+}
+
+/* Campaigns page styles */
+.campaigns-container {
+    padding: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Add smooth scrolling for the whole page */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Additional fixes */
+#content {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}

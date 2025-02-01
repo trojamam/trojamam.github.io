@@ -1,4 +1,5 @@
 import {router} from './router.js';
+import {msg} from './widgets/msg.js';
 
 document.addEventListener('DOMContentLoaded', function(){
     const main = {
@@ -31,14 +32,14 @@ document.addEventListener('DOMContentLoaded', function(){
                         self.user = JSON.parse(window.localStorage.getItem("user"));
                         if(self.$route['path']=='/' && self.user.type=='admin'){
                             self.page('/campaigns');
-                        } else if(['/campaigns','/campaign','/users','/user'].includes(self.$route['path']) && self.user.type!='admin'){
+                        }else if(['/campaigns','/campaign','/users','/user'].includes(self.$route['path']) && self.user.type!='admin'){
                             self.page('/statistics');
-                        } else if(['/statistics','/payments','/sites'].includes(self.$route['path']) && self.user.type=='admin'){
+                        }else if(['/statistics','/payments','/sites'].includes(self.$route['path']) && self.user.type=='admin'){
                             self.page('/campaigns');
-                        } else if(['/campaigns','/campaign','/users','/user','/statistics','/payments','/sites'].includes(self.$route['path'])){
+                        }else if(['/campaigns','/campaign','/users','/user','/statistics','/payments','/sites'].includes(self.$route['path'])){
                             self.page();
-                        } else {
-                            self.page('/');
+                        }else if(!['/campaigns','/campaign','/users','/user','/statistics','/payments','/sites'].includes(self.$route['path'])){
+                            self.page();
                         }
                     } else {
                         self.page('/');
@@ -96,6 +97,7 @@ document.addEventListener('DOMContentLoaded', function(){
     };
 
     var app = Vue.createApp(main)
+    .component('msg',msg)
     .use(router) 
     .mount('#content')
 });
