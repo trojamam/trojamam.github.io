@@ -18,7 +18,7 @@
     padding: 20px;
 }
 
-/* Login page specific styles */
+/* Login */
 #left-area {
     min-height: 100vh;
     background: white;
@@ -56,7 +56,7 @@ h1 {
     color: #1a202c;
 }
 
-/* Form styles */
+/* Form */
 .inner-form {
     max-width: 400px;
     margin: 40px auto;
@@ -111,7 +111,6 @@ input:focus {
     transform: translateY(0);
 }
 
-/* Alert and Success messages */
 .alertMsg,
 .successMsg {
     position: fixed;
@@ -144,7 +143,6 @@ input:focus {
     margin-right: 8px;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
     .flex {
         flex-direction: column;
@@ -164,19 +162,16 @@ input:focus {
     }
 }
 
-/* Campaigns page styles */
 .campaigns-container {
     padding: 24px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-/* Add smooth scrolling for the whole page */
 html {
     scroll-behavior: smooth;
 }
 
-/* Additional fixes */
 #content {
     min-height: 100vh;
     display: flex;
